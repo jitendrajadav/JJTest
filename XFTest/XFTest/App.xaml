@@ -9,18 +9,13 @@
 
         <ResourceDictionary>
 
-            <Color
-                x:Key="ColorWhite">#ffffff</Color>
-            <Color
-                x:Key="ColorPageHeading">#465A54</Color>
-            <Color
-                x:Key="ColorTitleHeading">#465A54</Color>
-            <Color
-                x:Key="ColorDarkText">#36424C</Color>
-            <Color
-                x:Key="ColorNormalText">#849A93</Color>
-            <Color
-                x:Key="ColorGreen">#34D69F</Color>
+            <Color x:Key="ColorWhite">#ffffff</Color>
+            <Color x:Key="ColorPageHeading">#465A54</Color>
+            <Color x:Key="ColorTitleHeading">#465A54</Color>
+            <Color x:Key="ColorDarkText">#36424C</Color>
+            <Color x:Key="ColorNormalText">#849A93</Color>
+            <Color x:Key="ColorGreen">#34D69F</Color>
+            <Color x:Key="ColorBluishGrey">#DAE4E8</Color>
 
             <Style
                 x:Key="buttonStyleList"
@@ -894,6 +889,124 @@
                     Platform="Android"
                     Value="OpenSans-SemiBold.ttf#Regular" />
             </OnPlatform>
+
+            <Style x:Key="CalDateText" TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource ColorBluishGrey}" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="SizeStates">
+
+                            <VisualState x:Name="Small">
+                                <VisualState.Setters>
+                                    <Setter Property="FontSize" Value="{OnPlatform iOS=14, Android=11}"/>
+                                </VisualState.Setters>
+                            </VisualState>
+
+                            <VisualState x:Name="Medium">
+                                <VisualState.Setters>
+                                    <Setter Property="FontSize" Value="{OnPlatform iOS=16, Android=12}"/>
+                                </VisualState.Setters>
+                            </VisualState>
+
+                            <VisualState x:Name="Large">
+                                <VisualState.Setters>
+                                    <Setter Property="FontSize" Value="{OnPlatform iOS=18, Android=14}"/>
+                                </VisualState.Setters>
+                            </VisualState>
+
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+
+            <Style x:Key="NormalText11Cal" TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource ColorBluishGrey}" />
+                <Setter Property="FontAttributes" Value="None" />
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="SizeStates">
+
+                            <VisualState x:Name="Small">
+                                <VisualState.Setters>
+                                    <Setter Property="FontSize" Value="{OnPlatform iOS=12, Android=11}"/>
+                                </VisualState.Setters>
+                            </VisualState>
+
+                            <VisualState x:Name="Medium">
+                                <VisualState.Setters>
+                                    <Setter Property="FontSize" Value="{OnPlatform iOS=13, Android=11}"/>
+                                </VisualState.Setters>
+                            </VisualState>
+
+                            <VisualState x:Name="Large">
+                                <VisualState.Setters>
+                                    <Setter Property="FontSize" Value="{OnPlatform iOS=14, Android=11}"/>
+                                </VisualState.Setters>
+                            </VisualState>
+
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+
+            <Style x:Key="LoginSingupText14" TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource ColorTitleHeading}" />
+                <Setter Property="FontAttributes" Value="None" />
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="SizeStates">
+
+                            <VisualState x:Name="Small">
+                                <VisualState.Setters>
+                                    <Setter Property="FontSize" Value="{OnPlatform iOS=12, Android=13}"/>
+                                </VisualState.Setters>
+                            </VisualState>
+
+                            <VisualState x:Name="Medium">
+                                <VisualState.Setters>
+                                    <Setter Property="FontSize" Value="{OnPlatform iOS=13, Android=14}"/>
+                                </VisualState.Setters>
+                            </VisualState>
+
+                            <VisualState x:Name="Large">
+                                <VisualState.Setters>
+                                    <Setter Property="FontSize" Value="{OnPlatform iOS=14, Android=16}"/>
+                                </VisualState.Setters>
+                            </VisualState>
+
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+
+            <Style x:Key="CalDatePad" TargetType="Label">
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="SizeStates">
+
+                            <VisualState x:Name="Small">
+                                <VisualState.Setters>
+                                    <Setter Property="Padding" Value="{OnPlatform iOS='15,0,15,0', Android='15,0,15,0'}"/>
+                                </VisualState.Setters>
+                            </VisualState>
+
+                            <VisualState x:Name="Medium">
+                                <VisualState.Setters>
+                                    <Setter Property="Padding" Value="{OnPlatform iOS='17,0,17,0', Android='17,0,17,0'}"/>
+                                </VisualState.Setters>
+                            </VisualState>
+
+                            <VisualState x:Name="Large">
+                                <VisualState.Setters>
+                                    <Setter Property="Padding" Value="{OnPlatform iOS='18,0,18,0', Android='20,0,20,0'}"/>
+                                </VisualState.Setters>
+                            </VisualState>
+
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
 
         </ResourceDictionary>
 
