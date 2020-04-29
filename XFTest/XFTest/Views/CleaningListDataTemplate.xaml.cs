@@ -22,7 +22,6 @@ namespace XFTest.Views
             base.OnSizeAllocated(width, height);
             var state = width < 280 ? "Small" : width < 360 ? "Medium" : "Large";
             VisualStateManager.GoToState(CardlblTitle, state);
-            VisualStateManager.GoToState(CityTitle, state);
             VisualStateManager.GoToState(detailsText, state);
             VisualStateManager.GoToState(Icon1Lbl, state);
             VisualStateManager.GoToState(Icon2Lbl, state);
