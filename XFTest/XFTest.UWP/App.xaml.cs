@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FFImageLoading.Forms.Platform;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -51,7 +52,7 @@ namespace XFTest.UWP
                 rootFrame = new Frame();
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
-
+                CachedImageRenderer.Init();
                 Xamarin.Forms.Forms.Init(e);
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)

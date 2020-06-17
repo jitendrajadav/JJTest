@@ -43,7 +43,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=12, Android=11}" />
+                                        Value="{OnPlatform iOS=12, Android=11,UWP=12}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -52,7 +52,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=14, Android=13}" />
+                                        Value="{OnPlatform iOS=14, Android=13,UWP=13}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -61,7 +61,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=16, Android=14}" />
+                                        Value="{OnPlatform iOS=16, Android=14,UWP=14}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -90,7 +90,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=13, Android=11}" />
+                                        Value="{OnPlatform iOS=13, Android=11,UWP=13}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -99,7 +99,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=16, Android=14}" />
+                                        Value="{OnPlatform iOS=16, Android=14,UWP=14}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -108,7 +108,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=23, Android=20}" />
+                                        Value="{OnPlatform iOS=23, Android=20,UWP=20}" />
                                 </VisualState.Setters>
                             </VisualState>
                         </VisualStateGroup>
@@ -136,7 +136,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=16, Android=14}" />
+                                        Value="{OnPlatform iOS=16, Android=14,UWP=14}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -145,7 +145,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=18, Android=16}" />
+                                        Value="{OnPlatform iOS=18, Android=16,UWP=16}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -154,7 +154,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=23, Android=20}" />
+                                        Value="{OnPlatform iOS=23, Android=20,UWP=20}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -183,7 +183,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=13, Android=12}" />
+                                        Value="{OnPlatform iOS=13, Android=12,UWP=12}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -192,7 +192,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=18, Android=16}" />
+                                        Value="{OnPlatform iOS=18, Android=16,UWP=16}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -201,7 +201,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=24, Android=21}" />
+                                        Value="{OnPlatform iOS=24, Android=21,UWP=21}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -230,7 +230,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=13, Android=12}" />
+                                        Value="{OnPlatform iOS=13, Android=12,UWP=12}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -239,7 +239,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=16, Android=14}" />
+                                        Value="{OnPlatform iOS=16, Android=14,UWP=14}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -248,7 +248,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=23, Android=20}" />
+                                        Value="{OnPlatform iOS=23, Android=20,UWP=20}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -288,7 +288,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=12, Android=13}" />
+                                        Value="{OnPlatform iOS=12, Android=13,UWP=12}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -297,7 +297,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=13, Android=14}" />
+                                        Value="{OnPlatform iOS=13, Android=14,UWP=14}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -306,7 +306,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=14, Android=16}" />
+                                        Value="{OnPlatform iOS=14, Android=16,UWP=16}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -346,7 +346,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=12, Android=13}" />
+                                        Value="{OnPlatform iOS=12, Android=13,UWP=12}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -355,7 +355,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=13, Android=14}" />
+                                        Value="{OnPlatform iOS=13, Android=14,UWP=12}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -364,7 +364,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=14, Android=16}" />
+                                        Value="{OnPlatform iOS=14, Android=16,UWP=14}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -404,7 +404,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=12, Android=11}" />
+                                        Value="{OnPlatform iOS=12, Android=11,UWP=12}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -413,7 +413,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=13, Android=12}" />
+                                        Value="{OnPlatform iOS=13, Android=12,UWP=12}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -422,7 +422,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=16, Android=14}" />
+                                        Value="{OnPlatform iOS=16, Android=14,UWP=14}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -462,7 +462,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=12, Android=11}" />
+                                        Value="{OnPlatform iOS=12, Android=11,UWP=12}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -471,7 +471,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=13, Android=12}" />
+                                        Value="{OnPlatform iOS=13, Android=12,UWP=12}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -480,7 +480,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=16, Android=14}" />
+                                        Value="{OnPlatform iOS=16, Android=14,UWP=14}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -520,7 +520,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=11, Android=10}" />
+                                        Value="{OnPlatform iOS=11, Android=10,UWP=10}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -529,7 +529,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=12, Android=11}" />
+                                        Value="{OnPlatform iOS=12, Android=11,UWP=12}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -538,7 +538,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=13, Android=12}" />
+                                        Value="{OnPlatform iOS=13, Android=12,UWP=12}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -567,7 +567,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=13, Android=12}" />
+                                        Value="{OnPlatform iOS=13, Android=12,UWP=12}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -576,7 +576,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=18, Android=16}" />
+                                        Value="{OnPlatform iOS=18, Android=16,UWP=16}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -585,7 +585,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=24, Android=21}" />
+                                        Value="{OnPlatform iOS=24, Android=21,UWP=20}" />
                                 </VisualState.Setters>
                             </VisualState>
                         </VisualStateGroup>
@@ -613,7 +613,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=13, Android=12}" />
+                                        Value="{OnPlatform iOS=13, Android=12,UWP=12}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -622,7 +622,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=16, Android=14}" />
+                                        Value="{OnPlatform iOS=16, Android=14,UWP=14}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -631,7 +631,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=23, Android=20}" />
+                                        Value="{OnPlatform iOS=23, Android=20,UWP=20}" />
                                 </VisualState.Setters>
                             </VisualState>
                         </VisualStateGroup>
@@ -643,7 +643,8 @@
                 x:Key="FontSizeA16I18"
                 x:TypeArguments="x:Double"
                 iOS="18"
-                Android="16" />
+                Android="16"
+                Default="16"/>
 
             <Style
                 x:Key="FontSizeA16I18New"
@@ -659,7 +660,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=13, Android=12}" />
+                                        Value="{OnPlatform iOS=13, Android=12,UWP=12}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -668,7 +669,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=14, Android=13}" />
+                                        Value="{OnPlatform iOS=14, Android=13,UWP=14}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -677,7 +678,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=18, Android=16}" />
+                                        Value="{OnPlatform iOS=18, Android=16,UWP=14}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -690,7 +691,8 @@
                 x:Key="FontSizeA14I16"
                 x:TypeArguments="x:Double"
                 iOS="16"
-                Android="14" />
+                Android="14"
+                Default="14"/>
 
             <Style
                 x:Key="FontSizeA14I16New"
@@ -709,7 +711,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=12, Android=12}" />
+                                        Value="{OnPlatform iOS=12, Android=12,UWP=12}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -718,7 +720,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=13, Android=13}" />
+                                        Value="{OnPlatform iOS=13, Android=13,UWP=13}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -727,7 +729,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=16, Android=14}" />
+                                        Value="{OnPlatform iOS=16, Android=14,UWP=14}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -753,7 +755,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=12, Android=11}" />
+                                        Value="{OnPlatform iOS=12, Android=11,UWP=12}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -762,7 +764,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=13, Android=12}" />
+                                        Value="{OnPlatform iOS=13, Android=12,UWP=12}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -771,7 +773,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=16, Android=14}" />
+                                        Value="{OnPlatform iOS=16, Android=14,UWP=14}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -784,7 +786,8 @@
                 x:Key="FontSizeA12I13"
                 x:TypeArguments="x:Double"
                 iOS="13"
-                Android="12" />
+                Android="12"
+                Default="12"/>
 
             <Style
                 x:Key="FontSizeA12I13New"
@@ -800,7 +803,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=11, Android=10}" />
+                                        Value="{OnPlatform iOS=11, Android=10,UWP=11}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -809,7 +812,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=12, Android=11}" />
+                                        Value="{OnPlatform iOS=12, Android=11,UWP=12}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -818,7 +821,7 @@
                                 <VisualState.Setters>
                                     <Setter
                                         Property="FontSize"
-                                        Value="{OnPlatform iOS=13, Android=12}" />
+                                        Value="{OnPlatform iOS=13, Android=12,UWP=12}" />
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -855,6 +858,9 @@
                 <On
                     Platform="Android"
                     Value="OpenSans-Bold.ttf#Bold" />
+                <On
+                    Platform="UWP"
+                    Value="OpenSans-Bold.ttf#Bold"/>
             </OnPlatform>
 
             <OnPlatform
@@ -865,6 +871,9 @@
                     Value="OpenSans-Regular" />
                 <On
                     Platform="Android"
+                    Value="OpenSans-Regular.ttf#Regular" />
+                <On
+                    Platform="UWP"
                     Value="OpenSans-Regular.ttf#Regular" />
             </OnPlatform>
 
@@ -888,6 +897,9 @@
                 <On
                     Platform="Android"
                     Value="OpenSans-SemiBold.ttf#Regular" />
+                <On
+                    Platform="UWP"
+                    Value="OpenSans-SemiBold.ttf#Regular" />
             </OnPlatform>
 
             <Style x:Key="CalDateText" TargetType="Label">
@@ -899,19 +911,19 @@
 
                             <VisualState x:Name="Small">
                                 <VisualState.Setters>
-                                    <Setter Property="FontSize" Value="{OnPlatform iOS=14, Android=11}"/>
+                                    <Setter Property="FontSize" Value="{OnPlatform iOS=14, Android=11,UWP=12}"/>
                                 </VisualState.Setters>
                             </VisualState>
 
                             <VisualState x:Name="Medium">
                                 <VisualState.Setters>
-                                    <Setter Property="FontSize" Value="{OnPlatform iOS=16, Android=12}"/>
+                                    <Setter Property="FontSize" Value="{OnPlatform iOS=16, Android=12,UWP=12}"/>
                                 </VisualState.Setters>
                             </VisualState>
 
                             <VisualState x:Name="Large">
                                 <VisualState.Setters>
-                                    <Setter Property="FontSize" Value="{OnPlatform iOS=18, Android=14}"/>
+                                    <Setter Property="FontSize" Value="{OnPlatform iOS=18, Android=14,UWP=12}"/>
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -929,19 +941,19 @@
 
                             <VisualState x:Name="Small">
                                 <VisualState.Setters>
-                                    <Setter Property="FontSize" Value="{OnPlatform iOS=12, Android=11}"/>
+                                    <Setter Property="FontSize" Value="{OnPlatform iOS=12, Android=11,UWP=12}"/>
                                 </VisualState.Setters>
                             </VisualState>
 
                             <VisualState x:Name="Medium">
                                 <VisualState.Setters>
-                                    <Setter Property="FontSize" Value="{OnPlatform iOS=13, Android=11}"/>
+                                    <Setter Property="FontSize" Value="{OnPlatform iOS=13, Android=11,UWP=12}"/>
                                 </VisualState.Setters>
                             </VisualState>
 
                             <VisualState x:Name="Large">
                                 <VisualState.Setters>
-                                    <Setter Property="FontSize" Value="{OnPlatform iOS=14, Android=11}"/>
+                                    <Setter Property="FontSize" Value="{OnPlatform iOS=14, Android=11,UWP=12}"/>
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -959,19 +971,19 @@
 
                             <VisualState x:Name="Small">
                                 <VisualState.Setters>
-                                    <Setter Property="FontSize" Value="{OnPlatform iOS=12, Android=13}"/>
+                                    <Setter Property="FontSize" Value="{OnPlatform iOS=12, Android=13,UWP=12}"/>
                                 </VisualState.Setters>
                             </VisualState>
 
                             <VisualState x:Name="Medium">
                                 <VisualState.Setters>
-                                    <Setter Property="FontSize" Value="{OnPlatform iOS=13, Android=14}"/>
+                                    <Setter Property="FontSize" Value="{OnPlatform iOS=13, Android=14,UWP=12}"/>
                                 </VisualState.Setters>
                             </VisualState>
 
                             <VisualState x:Name="Large">
                                 <VisualState.Setters>
-                                    <Setter Property="FontSize" Value="{OnPlatform iOS=14, Android=16}"/>
+                                    <Setter Property="FontSize" Value="{OnPlatform iOS=14, Android=16,UWP=14}"/>
                                 </VisualState.Setters>
                             </VisualState>
 
@@ -987,19 +999,19 @@
 
                             <VisualState x:Name="Small">
                                 <VisualState.Setters>
-                                    <Setter Property="Padding" Value="{OnPlatform iOS='15,0,15,0', Android='15,0,15,0'}"/>
+                                    <Setter Property="Padding" Value="{OnPlatform iOS='15,0,15,0', Android='15,0,15,0', UWP='15,0,15,0'}"/>
                                 </VisualState.Setters>
                             </VisualState>
 
                             <VisualState x:Name="Medium">
                                 <VisualState.Setters>
-                                    <Setter Property="Padding" Value="{OnPlatform iOS='17,0,17,0', Android='17,0,17,0'}"/>
+                                    <Setter Property="Padding" Value="{OnPlatform iOS='17,0,17,0', Android='17,0,17,0',UWP='17,0,17,0'}"/>
                                 </VisualState.Setters>
                             </VisualState>
 
                             <VisualState x:Name="Large">
                                 <VisualState.Setters>
-                                    <Setter Property="Padding" Value="{OnPlatform iOS='18,0,18,0', Android='20,0,20,0'}"/>
+                                    <Setter Property="Padding" Value="{OnPlatform iOS='18,0,18,0', Android='20,0,20,0',UWP='20,0,20,0'}"/>
                                 </VisualState.Setters>
                             </VisualState>
 
