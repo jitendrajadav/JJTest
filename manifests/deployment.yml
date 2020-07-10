@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: "adkubernetescluster-a3fb"
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: "adkubernetescluster-a3fb"
+    spec:
+      containers:
+        - name: "adkubernetescluster-a3fb"
+          image: "jjtestcontainer.azurecr.io/adkubernetescluster"
+          ports:
+          - containerPort: 809
